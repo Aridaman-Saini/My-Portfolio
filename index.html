@@ -45,7 +45,7 @@
     <div class="section__text">
       <p class="section_text_p1">Hello, I'm</p>
       <h1 class="title">Aridaman Singh</h1>
-      <p class="section__text__p2">Frontend Developer</p>
+      <p class="section__text__p2"><span class="auto-type"></p>
       <div class="btn-container">
         <button
           class="btn btn-color-2"
@@ -303,5 +303,14 @@
 </footer>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Frontend Developer", "Web Developer", "Coder"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+      })
+    </script>
 </body>
 </html>
